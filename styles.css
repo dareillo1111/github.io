@@ -1,0 +1,46 @@
+body {
+      background-color: black;
+      color: white;
+}
+ header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.terminal-text{
+      padding-left: 10px;
+      font-family:monospace ;
+      font-size: 25px;
+      text-wrap:wrap;
+      color: white;
+}
+
+#terminal{
+      display: grid;
+      grid-template-rows: auto 40px;
+      position: fixed;
+      bottom: 10%;
+      top: 10%;
+      right: 10%;
+      left: 10%;
+      border: 2px solid white;
+      border-radius: 6px;
+      background-color: red;
+      aspect-ratio: 2/1;
+}
+
+#terminal-input{
+      display: flex;
+      align-items: center;
+      background-color: blue;
+      grid-row-start: 2;
+}
+
+#terminal-input-box{
+      background: transparent;
+      border: none;
+      outline: none;
+}
+
+
