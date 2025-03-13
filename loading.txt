@@ -1,0 +1,54 @@
+[OK] Starting systemd-udevd...
+[OK] Mounted /boot/efi.
+[OK] Reached target Local Encrypted Volumes.
+[OK] Started Journal Service.
+[OK] Started Load Kernel Modules.
+[OK] Started Apply Kernel Variables.
+[OK] Started Flush Journal to Persistent Storage.
+[OK] Reached target Local File Systems.
+[OK] Started Create Static Device Nodes in /dev.
+[OK] Started Remount Root and Kernel File Systems.
+[OK] Started Load/Save Random Seed.
+[OK] Started Update UTMP about System Boot/Shutdown.
+[OK] Reached target System Initialization.
+[OK] Started Daily Cleanup of Temporary Directories.
+[OK] Started Periodic Update of man-db.
+[OK] Started Login Service.
+[OK] Started Getty on tty1.
+[OK] Reached target Multi-User System
+[OK] Starting systemd-udevd...
+[OK] Mounted /boot/efi.
+[OK] Reached target Local Encrypted Volumes.
+[OK] Started Journal Service.
+[OK] Started Load Kernel Modules.
+[OK] Started Apply Kernel Variables.
+[OK] Started Flush Journal to Persistent Storage.
+[OK] Reached target Local File Systems.
+[OK] Started Create Static Device Nodes in /dev.
+[OK] Started Remount Root and Kernel File Systems.
+[OK] Started Load/Save Random Seed.
+[OK] Started Update UTMP about System Boot/Shutdown.
+[OK] Reached target System Initialization.
+[OK] Started Daily Cleanup of Temporary Directories.
+[OK] Started Periodic Update of man-db.
+[OK] Started Login Service.
+[OK] Started Getty on tty1.
+[OK] Reached target Multi-User System.
+[OK] Starting systemd-udevd...
+[OK] Mounted /boot/efi.
+[OK] Reached target Local Encrypted Volumes.
+[OK] Started Journal Service.
+[OK] Started Load Kernel Modules.
+[OK] Started Apply Kernel Variables.
+[OK] Started Flush Journal to Persistent Storage.
+[OK] Reached target Local File Systems.
+[OK] Started Create Static Device Nodes in /dev.
+[OK] Started Remount Root and Kernel File Systems.
+[OK] Started Load/Save Random Seed.
+[OK] Started Update UTMP about System Boot/Shutdown.
+[OK] Reached target System Initialization.
+[OK] Started Daily Cleanup of Temporary Directories.
+[OK] Started Periodic Update of man-db.
+[OK] Started Login Service.
+[OK] Started Getty on tty1.
+[OK] Reached target Multi-User System..

@@ -2,9 +2,12 @@ import OutputInterface from "./OutputInterface.js"
 
 const terminalInput = document.getElementById("terminal-input-box")
 
+OutputInterface.printLoadingScreen();
+
+terminalInput.focus();
 terminalInput.addEventListener("keypress", function(e){
       if (e.key === "Enter"){
-            readAction()
+            readAction();
       }
 })
 

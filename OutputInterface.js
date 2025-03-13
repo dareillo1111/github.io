@@ -1,26 +1,48 @@
 const SERVERERROR = "Error del servidor, no se puede ejecutar tu acción"
 const terminalOutput = document.getElementById("terminal-output-text")
+const terminalOutputScroll = document.getElementById("terminal-output");
 const helpOptions = "./help.txt"
 const neofetch = "./neofetch.txt"
+const loadingScreen = "./loading.txt"
 
 const outputInterface = {
       printHelp: function() {
-            printFromFile(helpOptions)
+            printFromFile(helpOptions);
       },
       printNeofetch: function() {
-            printFromFile(neofetch) 
+            printFromFile(neofetch);
+      },
+      printLoadingScreen: async function() {
+            await printFromFile(loadingScreen);
+            terminalOutput.innerText = " ";
+            await sleep(800);
+            this.printNeofetch();
       }
 }
-function printFromFile(file){
-      fetch(file)
-      .then(response => response.text())
-      .then(data => {
-                  terminalOutput.innerText = data 
-            })
-      .catch(error => {
-                  terminalOutput.innerText = SERVERERROR
-                  console.log(error)
-            })
+async function printFromFile(file){
+      terminalOutput.innerText = "";
+
+      try {
+            const loadedFile = await fetch(file);
+            const data = await loadedFile.text();
+            const lines = data.split("\n");
+            
+            for (const line of lines){
+                  for (const char of line){
+                        terminalOutput.innerText += char;
+                        terminalOutputScroll.scrollTop = terminalOutputScroll.scrollHeight;
+                        await sleep(1);
+                  }
+                  terminalOutput.innerText += "\n"
+            }
+      }catch (error){
+            terminalOutput.innerText = SERVERERROR;
+            console.log(error);
+      }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 export default outputInterface
