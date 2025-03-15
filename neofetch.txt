@@ -1,7 +1,11 @@
-      /\          OS : Arch Linux x86_64
-     /  \         VER: 6.13.5-arch1-1
-    /\   \       󰥔 UP : 7 hours, 27 mins
-   /      \      󰏗 PKG: 823 (pacman)
-  /   ,,   \      CPU:: AMD Ryzen 7 1700 (16) @ 3.000GHz
- /   |  |  -\     GPU:: NVIDIA GeForce GTX 1080 Ti
-/_-''    ''-_\   󰍛 MEM: 4.36GiB / 31.27GiB
+      /\        Nombre:            Darío Sempere Morato 
+     /  \       Fecha nacimiento:  06-02-2002
+    /\   \      Estudios:          DAM, Bachillerato
+   /      \     Preferencias:      Backend
+  /   ,,   \    Mejores lenguajes: Java, Python, MySQL
+ /   |  |  -\   OS y editor:       Arch y Neovim, btw
+/_-''    ''-_\  Contactos: 
+
+                dario.sempere.morato@gmail.com     
+                Moralzarzal, Madrid
+                675564472

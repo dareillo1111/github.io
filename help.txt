@@ -1,1 +1,10 @@
-this is a help txt
+Comandos:
+      
+-h                Muestra esta ayuda.
+
+neofetch          Muestra mí presentación 
+                  con información básica.
+
+tecnologías       Muestra todas las 
+                  tecnologías que he aprendido.
+      
